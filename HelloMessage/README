@@ -1,0 +1,7 @@
+This project is the practical demonstration of using Serverless Framework with AWS as a cloud provider.
+Steps:
+1) Setup aws Serverless with the command : npm install -g serverless
+2) Once the installation process is done you can verify that Serverless is installed successfully by running the following command in your terminal: serverless 
+3) aws configure (setting 'Access Key ID' and 'Secret Access Key')
+4) Update your 'serverless.yml' file -> functions and set the endpoint.
+5) use command : serverless deploy
